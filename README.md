@@ -1,9 +1,14 @@
 # OrderMenu
-This app is built for learning state management in Phoenix LiveView
-## Contents
-  * Main File :  `lib/order_menu_web/live/order_menu_live.ex`
-  * Data: `priv/static/data.json`
-  * UI Design: `about-project/design`
+This app is built to learn state management in Phoenix LiveView.
+## Primary Files and Folders
+  * Main File:
+    `lib/order_menu_web/live/order_menu_live.ex`
+  * Hook:
+    `assets/js/hooks/order_menu_hook.js`
+  * Data source (JSON format):
+    `priv/static/data.json`
+  * UI Design:
+    `about-project/design`
 
 ## What I use + Document recommendations
   * Web Design: [`Frontend Mentor`](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d)
