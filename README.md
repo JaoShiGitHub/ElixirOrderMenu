@@ -1,6 +1,6 @@
 # OrderMenu
 
-A learning project focused on understanding state management in Phoenix LiveView.
+This app is built to learn state management in Phoenix LiveView.
 
 ## Primary Files and Folders
 
@@ -15,6 +15,12 @@ A learning project focused on understanding state management in Phoenix LiveView
 
 * **UI design**:  
   `about-project/design`
+  
+## Start Phoenix server to see the UI and more:
+
+  * Run `mix deps.get` to install dependencies (only for the first time)
+  * Run `mix phx.server` or inside IEx with `iex -S mix phx.server`
+  * Go to [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## What I use + Document recommendations
   * Web Design: [`Frontend Mentor`](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d)
@@ -33,9 +39,3 @@ A learning project focused on understanding state management in Phoenix LiveView
      ⚠️ **BUT** put specific ones first and catch-all patterns last to avoid conflicts—Elixir matches from top to bottom.
    * Each one should match on a different event name (or different pattern).
    * Elixir uses pattern matching, so when a LiveView receives an event, it tries each handle_event/3 function until it finds one that matches the event name.
-
-## Start Phoenix server to see the UI and more:
-
-  * Run `mix deps.get` to install dependencies (only for the first time)
-  * Run `mix phx.server` or inside IEx with `iex -S mix phx.server`
-  * Go to [`localhost:4000`](http://localhost:4000) from your browser.
