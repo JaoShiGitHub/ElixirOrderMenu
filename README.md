@@ -28,9 +28,6 @@ This app is built to learn state management in Phoenix LiveView.
   * Language: [`Elixir`](https://hexdocs.pm/elixir/Kernel.html#content)
   * CSS Library: [`TailwindCSS`](https://tailwindcss.com/)
 
-## Articles
-  * [`Import, Alias, Require, and Use in Elixir`](https://gabriel.perales.me/blog/import-alias-require-and-use)
-
 ## Notes
   * State Naming: `snake_case` only. E.g. ->  is_clicked
   * ERB tag (Embedded Ruby tag): `<%= ... %>`
@@ -39,3 +36,7 @@ This app is built to learn state management in Phoenix LiveView.
      ⚠️ **BUT** put specific ones first and catch-all patterns last to avoid conflicts—Elixir matches from top to bottom.
    * Each one should match on a different event name (or different pattern).
    * Elixir uses pattern matching, so when a LiveView receives an event, it tries each handle_event/3 function until it finds one that matches the event name.
+
+## LEARN MORE
+  * Examples: [`Phoenix LiveView Examples`](https://a4word.com/articles/liveview-examples)
+  * Article: [`Import, Alias, Require, and Use in Elixir`](https://gabriel.perales.me/blog/import-alias-require-and-use)
