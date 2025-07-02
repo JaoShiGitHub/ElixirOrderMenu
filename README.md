@@ -1,13 +1,16 @@
 # OrderMenu
-This app is built to learn state management in Phoenix LiveView.
+
+A learning project focused on understanding **state management** in **Phoenix LiveView**.
+
 ## Primary Files and Folders
-* **Main File**:
+
+* **Main LiveView module**:  
   `lib/order_menu_web/live/order_menu_live.ex`
-* **Hook**:
-  `assets/js/hooks/order_menu_hook.js`
-* **Data source (JSON format)**:
+
+* **Data source (JSON format)**:  
   `priv/static/data.json`
-* **UI Design**:
+
+* **UI design mockups**:  
   `about-project/design`
 
 ## What I use + Document recommendations
