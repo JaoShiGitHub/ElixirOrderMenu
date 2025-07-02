@@ -1,5 +1,5 @@
 # OrderMenu
-
+This app is built for learning state management in Phoenix LiveView
 ## Contents
   * Main File :  `lib/order_menu_web/live/order_menu_live.ex`
   * Data: `priv/static/data.json`
