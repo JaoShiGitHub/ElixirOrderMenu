@@ -7,13 +7,13 @@ A learning project focused on understanding state management in Phoenix LiveView
 * **Main LiveView module**:  
   `lib/order_menu_web/live/order_menu_live.ex`
 
-* **Hook**:
+* **Hook**:  
   `assets/js/hooks/order_menu_hook.js`
 
 * **Data source (JSON format)**:  
   `priv/static/data.json`
 
-* **UI design mockups**:  
+* **UI design**:  
   `about-project/design`
 
 ## What I use + Document recommendations
